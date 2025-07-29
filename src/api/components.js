@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api/components';
+const API_URL = 'https://acciojob-backend-7xqz.onrender.com/api/components';
 
 const createComponent = async (componentData, token) => {
   const config = {
